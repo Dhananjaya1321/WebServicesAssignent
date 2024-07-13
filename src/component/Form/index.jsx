@@ -1,16 +1,6 @@
 import React, {useState} from 'react';
 
 const UserForm = () => {
-    const [name, setName] = useState('');
-    const [dob, setDob] = useState('');
-    const [picture, setPicture] = useState(null);
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle form submission here
-        console.log({name, dob, picture});
-    };
-
     return (
         <section className='w-40 h-[400px] shadow p-4 rounded-4'>
             <form>
