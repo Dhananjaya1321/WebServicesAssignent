@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import UserForm from "./component/Form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='bg-amber-200 w-[500px] h-[500px]'></div>
-      </header>
+        <main className='h-screen flex justify-content-center align-items-center'>
+            <UserForm/>
+        </main>
     </div>
   );
 }
